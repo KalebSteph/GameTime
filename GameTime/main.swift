@@ -7,5 +7,9 @@
 
 import Foundation
 
-print("Hello, World!")
+let game = RockPaperScissorsGame()
 
+game.playRounds()
+game.displayFinalResults()
+
+print("Thanks for playing!")
